@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/raissabandeira.lwc-l4ofqclc",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve QwfAiy7vFuu2hiPRU6h3 --open"
+  }
+}

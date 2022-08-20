@@ -1,0 +1,17 @@
+<template>
+	<div class="slds-card">
+		<lightning-input type="text" label="Nome" onchange={name}></lightning-input>
+		<lightning-input type="text" label="Sobrenome" onchange={lname}></lightning-input>
+
+		<lightning-button variant="brand" label="Concatenar" title="Primary action" onclick={junta}
+			class="slds-m-left_x-small">
+		</lightning-button>
+
+		<span> <strong> {resultado} </strong> </span>
+
+		<br/>
+		<br/>
+
+	</div>
+
+</template>
